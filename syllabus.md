@@ -1,5 +1,5 @@
-**CS-225 WEB PROGRAMMING**  
-*Spring 2023, T/H 1100-1215*
+**CS-225 51 WEB PROGRAMMING**  
+*Spring 2023, T/H 1100-1215, Dolan E243*
 
 ## Contact Information
 Mike Kovacina  
