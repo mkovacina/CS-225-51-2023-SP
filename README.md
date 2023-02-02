@@ -2,5 +2,5 @@
 
 # References
 
-[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)  
 [W3C School](https://www.w3schools.com/html/default.asp)
