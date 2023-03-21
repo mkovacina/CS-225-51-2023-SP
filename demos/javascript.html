@@ -17,6 +17,12 @@
 		<image id="robot" src="assets/image-1.jpg" width="500" height="500"/>
 		<br/>
 		<button id="btnBigger">Bigger</button><button id="btnSmaller">Smaller</button>
+		<br/>
+		<button id="btnAddSomething">Add Something</button>
+		<div id="my-div"></div>
+		<div id="remove-button-div">
+		<button id="btnRemoveSomething">Remove Something</button>
+		</div>
 		<script>
 			"use strict";	
 			function DoSomething()
@@ -55,6 +61,22 @@
 			document.getElementById("robot").addEventListener("click", changePicture);
 			document.getElementById("robot").addEventListener("click", changePicture2);
 
+			document.getElementById("btnAddSomething").addEventListener("click", addSomethingHandler);
+			document.getElementById("btnRemoveSomething").addEventListener("click", removeSomethingHandler);
+
+			function addSomethingHandler(event)
+			{
+				var newP = document.createElement("p");
+				var myDiv = document.getElementById("my-div");
+				myDiv.appendChild(newP);
+			}
+
+			function removeSomethingHandler(event)
+			{
+				var addButton = document.getElementById("btnRemoveSomething");
+				var div = document.getElementById("remove-button-div");
+				div.removeChild(addButton);
+			}
 			function changePicture(event)
 			{
 				// for a list of all the event properties
