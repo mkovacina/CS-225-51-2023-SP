@@ -1,0 +1,73 @@
+/*
+body
+{
+    background-color: gray;
+}
+
+li
+{
+    text-align: left
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#my-div
+{
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+.item
+{
+    font-size: xx-large;
+}
+
+body p
+{
+    font-style: italic; 
+}
+
+body > p
+{
+    background-color: red;
+}
+
+#little-pigs *
+{
+    all: revert
+}
+
+#little-pigs p
+{
+    color: red;
+    background-color: darkolivegreen;
+}
+
+#little-pigs > :first-child
+{
+    background-color: yellow;
+}
+
+#little-pigs #second
+{
+    background-color: aqua;
+}
+
+#little-pigs #second + p
+{
+    background-color: brown; 
+}
+
+#little-pigs #second ~ p:hover
+{
+    background-color: black; 
+}
+
+#little-pigs:hover
+{
+    font-size: larger;
+}
+*/
